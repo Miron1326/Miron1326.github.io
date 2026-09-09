@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--делает сайт адаптивным-->>
+    <title>Мирон — Backend & GameDev Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="logo">Мir.</div>
+        <ul class="nav-links">
+            <li><a href="#about">Обо мне</a></li>
+            <li><a href="#skills">Навыки</a></li>
+            <li><a href="#projects">Проекты</a></li>
+            <li><a href="#contact">Контакты</a></li>
+        </ul>
+    </nav>
+
+    <!-- Главный экран -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Привет, я <span class="accent">Мирон</span></h1>
+            <p class="hero-subtitle">Backend & GameDev Developer</p>
+            <p class="hero-description">
+                Разрабатываю на C#, Python, Unity. Строю серверы, API и игры.
+            </p>
+            <a href="#projects" class="btn">Мои проекты</a>
+        </div>
+    </section>
+
+    <!-- Обо мне -->
+    <section id="about" class="section">
+        <h2 class="section-title">Обо мне</h2>
+        <div class="about-content">
+            <p>
+                Мне 16 лет, я учусь в колледже по специальности "Разработка ПО".
+                Пишу на C# около 3 лет, изучаю Python, SQL, ASP.NET Core.
+                Увлекаюсь геймдевом — делаю свои проекты на Unity и Raylib.
+                Умею играть на гитаре 4 года опыта, свои песни не делал, могу играть другие и пробовать по ним создать что-то
+            </p>
+            <p>
+                Цель: стать middle backend-разработчиком к 20 годам.
+                А также попасть в команду GameDev и/или Backend разработчиков
+            </p>
+        </div>
+    </section>
+
+    <!-- Навыки -->
+    <section id="skills" class="section">
+        <h2 class="section-title">Навыки</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>C# / .NET</h3>
+                <p>ООП, LINQ, async/await, ASP.NET Core</p>
+            </div>
+            <div class="skill-card">
+                <h3>Python</h3>
+                <p>FastAPI, скрипты, автоматизация</p>
+            </div>
+            <div class="skill-card">
+                <h3>Unity</h3>
+                <p>2D/3D игры, физика, UI</p>
+            </div>
+            <div class="skill-card">
+                <h3>SQL</h3>
+                <p>PostgreSQL, EF Core, запросы</p>
+            </div>
+            <div class="skill-card">
+                <h3>Git</h3>
+                <p>Контроль версий, GitHub, Git</p>
+            </div>
+            <div class="skill-card">
+                <h3>Embedded</h3>
+                <p>Arduino, C++, низкоуровневое программирование</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Проекты -->
+    <section id="projects" class="section">
+        <h2 class="section-title">Проекты</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>
+                    <a href="https://github.com/Miron1326/DuoGrid"target="_blank">
+                     DuoGrid
+                    </a>
+                </h3>
+                <p>Стратегия на Unity для двух игроков на одном устройстве. Порт PC и Android</p>
+                <span class="tag">Unity</span>
+                <span class="tag">C#</span>
+            </div>
+            <div class="project-card">
+                <h3>
+                    <a href="https://github.com/Miron1326/MyFirstAPI" target="_blank">
+                        MyAPI
+                    </a>
+                </h3>
+                <p>REST API на ASP.NET Core с PostgreSQL</p>
+                <span class="tag">ASP.NET</span>
+                <span class="tag">EF Core</span>
+            </div>
+            <div class="project-card">
+                <h3>Raylib Engine</h3>
+                <p>
+                    <a href="https://github.com/Miron1326/MyEngine-AI" target="_blank">
+                        Мини-движок на C# + Raylib.
+                        В разработке
+                    </a>
+                </p>
+                <span class="tag">Raylib</span>
+                <span class="tag">C#</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="section">
+        <h2 class="section-title">Контакты</h2>
+        <div class="contact-links">
+            <a href="https://github.com/Miron1326" class="contact-btn" target="_blank">GitHub</a>
+            <a href="mailto:mironologist@mail.ru" class="contact-btn">Email</a>
+            <a href="https://t.me/a125bc" class="contact-btn" target="_blank">Telegram</a>
+        </div>
+    </section>
+    <footer>
+        <p>© 2026 Мирон. Сделано с любовью.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
